@@ -1,8 +1,39 @@
-#BattleShips
+# Battleships-Web-Retry
 
-The game is ready to play when theres are two players initialized with a board each and each board has 5 ships placed. 
+##What is it? 
+A rehash of my original project which was an online visual version of the classic game Battleships. The game engine has been cloned from [Stephen Lloyd](https://github.com/stephenlloyd) 
 
-By default it is player1's go first and after each shot it will switch the turns until there is a winner. 
+##Objectives?
+* Consolidate some of what I learnt before on the previous project
+* See if I could overcome some of my problems now I'm more aware of the problem scope
+* Really get to grips with server routing and communication between front and back end
 
-A game_setup.rb file has been added which sets up the game to a ready state placeing each ship from colums A through to E vertically. 
-	
+###To run:
+
+```
+bundle install
+```
+
+Tests:
+```
+rspec
+```
+[Localhost server](localhost:9292):
+```
+rackup
+```
+
+##Brief
+
+* Allow a player to type in their name and register to play
+* Lay out a board on the screen on which a player can place their ships
+* Integrate all of this properly with the back-end logic
+
+##Technologies
+* Sinatra
+* Ruby
+* RSpec
+* Cucumber
+
+##Contributors
+[Luke Clewlow](https://github.com/lukeclewlow)  
